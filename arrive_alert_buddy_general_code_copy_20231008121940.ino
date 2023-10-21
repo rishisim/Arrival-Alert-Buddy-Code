@@ -13,32 +13,18 @@
     Follow us:                  https://www.fb.com/blynkapp
                                 https://twitter.com/blynk_app
 
-
-
-
   Blynk library is licensed under MIT license
   This example code is in public domain.
 
-
-
-
  *************************************************************
   This example runs directly on ESP32 chip.
-
-
-
 
   NOTE: This requires ESP32 support package:
     https://github.com/espressif/arduino-esp32
 
 
-
-
   Please be sure to select the right ESP32 module
   in the Tools -> Board menu!
-
-
-
 
   Change WiFi ssid, pass, and Blynk auth token to run :)
   Feel free to apply it to any other example. It's simple!
@@ -51,7 +37,6 @@
 #define BLYNK_PRINT Serial
 
 
-
 /* Fill in information from Blynk Device Info here */
 #define BLYNK_TEMPLATE_ID           "TMPxxxxxx"
 #define BLYNK_TEMPLATE_NAME         "TMPxxxxxx"
@@ -61,6 +46,7 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
+
 
 /* Fill in information about Wifi where the device will be used */
 char ssid[] = "****";
