@@ -44,13 +44,6 @@
   Feel free to apply it to any other example. It's simple!
  *************************************************************/
 
-
-
-
-
-
-
-
 // NEED TO REPLACE , TEMPLATE ID, NAME, AUTHCODE FROM DEVICE..AND WIFI //PASSWORD
 
 
@@ -59,22 +52,17 @@
 
 
 
-
 /* Fill in information from Blynk Device Info here */
-//#define BLYNK_TEMPLATE_ID           "TMPxxxxxx"
-//#define BLYNK_TEMPLATE_NAME         "TMPxxxxxx"
-//#define BLYNK_AUTH_TOKEN            "TMPxxxxxx"
-
-
-#define BLYNK_TEMPLATE_ID "TMPL2XIj6mEIJ"
-#define BLYNK_TEMPLATE_NAME "Controlling LED Template"
-#define BLYNK_AUTH_TOKEN "mTa5FrdCbKaR1aFpWc7J3sioQM9jrRa4"
+#define BLYNK_TEMPLATE_ID           "TMPxxxxxx"
+#define BLYNK_TEMPLATE_NAME         "TMPxxxxxx"
+#define BLYNK_AUTH_TOKEN            "TMPxxxxxx"
 
 
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
 
+/* Fill in information about Wifi where the device will be used */
 char ssid[] = "****";
 char pass[] = "*******";
 
