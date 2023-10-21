@@ -1,1 +1,1 @@
-# Arrival-Alert-Buddy-Code
+# Arrival Alert Buddy Code
